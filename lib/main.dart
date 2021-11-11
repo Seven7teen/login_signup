@@ -71,8 +71,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                 decoration: BoxDecoration(
                   color: Colors.green,
                   image: DecorationImage(
-                      image: AssetImage('assets/zero_screen.jpg'),
-                      fit: BoxFit.cover),
+                      image: AssetImage('assets/beat.jfif'), fit: BoxFit.cover),
                 ),
               ),
               SizedBox(
@@ -87,7 +86,7 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                       pause: Duration(milliseconds: 5000),
                       animatedTexts: [
                         TyperAnimatedText(
-                          'LIFELINE',
+                          'MOODIFY',
                           speed: Duration(milliseconds: 250),
                           textStyle: TextStyle(
                               color: Colors.blueGrey,
